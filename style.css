@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.background {
+    background-image: url(./d22ff646d9597e221db37f94dd885e91ab17052e.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 52px;
+}
+
+.button {
+    width: 243px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-shadow: 0px 4px 3px black;
+    box-shadow: 0px 4px 3px white;
+    border: none;
+    background-color: aqua;
+    opacity: 75%;
+    font-weight: 700;
+}
+
+.button:hover {
+    transition: 0.5s;
+    border: 5px solid blue;
+}
+
+.h2 {
+    margin-top: 44px;
+    margin-left: 40px;
+    color: white;
+    text-shadow: 0px 4px 3px black;
+}
+
+.h2-2 {
+    margin-left: 325px;
+    margin-top: 44px;
+    color: white;
+    text-shadow: 0px 4px 3px black;
+}
+
+.h2-2::after {
+    content: '  ↓';
+    text-shadow: 0px 6px 3px black;
+}
+
+.h2-2:hover {
+    color: black;
+    text-shadow: 0px 4px 3px red;
+    transition: 0.5s;
+}
+
+.button2 {
+    width: 506px;
+    height: 75px;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 50px;
+    border: 10px solid gray;
+    text-shadow: 0px 4px 3px white;
+    font-size: 25px;
+    background-color: orange;
+    font-weight: 700;
+}
+
+.button2:hover {
+    transition: 0.5s;
+    border: 10px solid orange;
+    background-color: gray;
+    text-shadow: 0px 4px 2px red;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+section {
+    width: 300px;
+    height: 340px;
+    background-color: #1f1f1f;
+    margin-bottom: 75px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+.h2-3 {
+    padding-left: 100px;
+    padding-top: 5px;
+    text-shadow: 0px 4px 2px yellow;
+}
+
+.main2 {
+    width: 100%;
+    height: 1050px;
+    background-color: black;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+    text-shadow: 0px 4px 3px white;
+}
+
+.img2 {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.img3 {
+    width: 500px;
+    height: 300px;
+    margin-top: 35px;
+}
+
+.container2 {
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.con-tainer {
+    display: flex;
+}
+
+.con-tainer2 {
+    display: flex;
+}
+
+.container3 {
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.p {
+    margin-left: 75px;
+    margin-top: 75px;
+    width: 500px;
+    height: 200px;
+}
+
+.p1 {
+    color: white;
+    margin-left: 50px;
+    width: 500px;
+    height: 200px;
+    margin-right: 200px;
+    margin-top: 75px;
+}
+
+.button3 {
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 50px;
+    height: 45px;
+    margin-left: 750px;
+    background-color: orange;
+    box-shadow: 0px 4px 3px white;
+}
+
+.button3:hover {
+    background-color: #1f1f1f;
+    color: white;
+    transition: 0.5s;
+}
+
+.button4 {
+    margin-left: 150px;
+    width: 120px;
+    margin-top: 50px;
+    height: 45px;
+    background-color: orange;
+    box-shadow: 0px 4px 3px white;
+}
+
+.button4:hover {
+    background-color: #1f1f1f;
+    color: white;
+    transition: 0.5s;
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: orange;
+}
+
+
+.logo-div-f {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 50px;
+    width: 55px;
+    height: 35px;
+}
+
+
+
+.footer-logo2 {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+    height: 35px;
+    padding-left: 1200px;
+    padding-bottom: 35px;
+}
